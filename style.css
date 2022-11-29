@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa");
+
+nav ul li {
+  padding: 5px;
+}
+
+.floatRight {
+  float: right;
+  margin-left: auto;
+}
+
+.floatLeft {
+  float: left;
+  margin-right: auto;
+}
+
+.btn-success {
+  margin-left: 20px;
+}
+
+* {
+  font-family: "Comfortaa", cursive;
+}
+
+a.navbar-brand {
+  font-size: 1.5em;
+}
+
+.card.text-center {
+  color: lightblue;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: gainsboro;
+  height: 100%;
+  width: 100vw;
+}
+
+.btn-outline-danger {
+  font-size: 1.1em;
+}
+
+div.col div.card:hover {
+  box-shadow: 0 0 5px 3px grey;
+}
+
+nav .nav-link {
+  margin-left: 50px;
+}
+
+div#emailborder {
+  border: 2px dashed lightblue;
+  border-radius: 10px;
+  color: lightblue;
+  padding: 3px;
+  width: fit-content;
+}
+
+div.container {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  margin-top: 3.5%;
+  margin-bottom: 1.5%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  height: fit-content;
+  background-color: gainsboro;
+  box-shadow: 0 0 5px 2px black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+div.container input,
+div.container select,
+div.container textarea {
+  display: block;
+  height: 40px;
+  overflow: auto;
+}
+
+div.container div.desc textarea {
+  width: 60%;
+  height: 200px;
+  overflow: auto;
+}
+
+div#abouttext {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 3.5%;
+  margin-bottom: 1.5%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  height: fit-content;
+  background-color: gainsboro;
+  border-radius: 25px;
+  font-size: 30px;
+  padding-inline: 1%;
+}
+
+div#abouttext:hover {
+  box-shadow: 0 0 5px 2px grey;
+  transform: scale(1.01);
+}
+
+nav a.navbar-brand:hover {
+  cursor: default;
+}
+
+span.pricebox {
+  background-color: gainsboro;
+  padding: 5px;
+  border: 2px dashed black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px black;
+}
+
+div h4 {
+  width: 98%;
+  height: fit-content;
+  background-color: gainsboro;
+  box-shadow: 0 0 5px 2px black;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
+}
+
+div h4:hover {
+  transform: scale(1.01);
+}
+
+#packageslide {
+  height: 50%;
+}
+
+/* #packageslide img {
+  height: 10%;
+  width: 100%;
+} */
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin-top: 1.5%;
+  margin-bottom: 4%;
+}
+
+th,
+td {
+  text-align: center;
+  background-color: burlywood;
+  padding: 10px;
+}
+
+h1#profilehead {
+  background-color: gainsboro;
+  box-shadow: 0 0 5px 2px black;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
+  width: fit-content;
+}
+
+table#profiletable {
+  width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+  .floatLeft,
+  .floatRight {
+    display: none;
+  }
+  .form-check {
+    margin-left: 2%;
+  }
+  .nav-tabs {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .floatLeft,
+  .floatRight {
+    width: 27%;
+    min-height: 700px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .floatLeft,
+  .floatRight {
+    width: 27%;
+    min-height: 700px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1079px) {
+  nav .nav-link {
+    margin-left: 25px;
+  }
+}
